@@ -4,7 +4,7 @@ In this repository, I have listed some Vue.js Interview Questions and their answ
 1. [What is Vue.js?](#what-is-react-js) <br />
 2. [Mention some of the features of Vue.js.](#mention-some-of-the-features-of-vuejs) <br />
 3. [What are filters in Vue.js?](#what-are-filters-in-vuejs) <br />
-4. [How to create an instance in Vue.js?](#how-to-create-an-instance-in-vuejs) <br />
+4. [How to create an instance in Vue.js?](#vue-js-built-in-directives) <br />
 
 
 
