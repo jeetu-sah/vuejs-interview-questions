@@ -3,6 +3,7 @@ In this repository, I have listed some Vue.js Interview Questions and their answ
 
 1. [What is Vue.js?](#what-is-react-js) <br />
 2. [Mention some of the features of Vue.js.](#mention-some-of-the-features-of-vuejs) <br />
+2. [What are filters in Vue.js?](#mention-some-of-the-features-of-vuejs) <br />
 
 
 
@@ -19,3 +20,46 @@ In this repository, I have listed some Vue.js Interview Questions and their answ
   Virtual DOM <br />
   Components <br />
   Simple integration and so on... 
+
+
+  
+### What are filters in Vue.js?
+   Vue.js allows you to define filters that can be used to apply common text formatting. <br />
+   Filters are usable in two places: mustache interpolations and v-bind expressions (the latter supported in 2.1.0+). 
+   Filters should be appended to the end of the JavaScript expression, denoted by the “pipe”
+
+ ```javascript
+<!-- in mustaches -->
+	{{ message | capitalize }}
+
+	<!-- in v-bind -->
+	<div v-bind:id="rawId | formatId"></div>
+```
+There are two types of filters. 
+1. Local Filters.
+      You can define local filters in a component’s options:
+```javascript
+      filters: {
+	  capitalize: function (value) {
+		if (!value) return ''
+		value = value.toString()
+		return value.charAt(0).toUpperCase() + value.slice(1)
+	  }
+      }
+```
+3. Global Filters.
+   Define a filter globally before creating the Vue instance.
+```javascript
+    Vue.filter('capitalize', function (value) {
+	  if (!value) return ''
+	  value = value.toString()
+	  return value.charAt(0).toUpperCase() + value.slice(1)
+	})
+
+     new Vue({
+	  // ...
+     })
+```
+
+
+
