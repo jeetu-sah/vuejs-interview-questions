@@ -2,7 +2,7 @@
 In this repository, I have listed some Vue.js Interview Questions and their answer. <br />
 
 1. [What is Vue.js?](#what-is-react-js) <br />
-2. [Mention some of the features of Vue.js.](#what-is-react-js) <br />
+2. [Mention some of the features of Vue.js.](#mention-some-of-the-features-of-vuejs) <br />
 
 
 
