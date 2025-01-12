@@ -3,7 +3,7 @@ In this repository, I have listed some Vue.js Interview Questions and their answ
 
 1. [What is Vue.js?](#what-is-react-js) <br />
 2. [Mention some of the features of Vue.js.](#mention-some-of-the-features-of-vuejs) <br />
-2. [What are filters in Vue.js?](#mention-some-of-the-features-of-vuejs) <br />
+2. [What are filters in Vue.js?](#what-are-filters-in-vuejs) <br />
 
 
 
@@ -35,8 +35,9 @@ In this repository, I have listed some Vue.js Interview Questions and their answ
 	<!-- in v-bind -->
 	<div v-bind:id="rawId | formatId"></div>
 ```
-There are two types of filters. 
-##### 1. Local Filters. <br />
+There are two types of filters.  <br />
+
+ <strong>1. Local Filters.</strong> <br />
    You can define local filters in a component’s options:
 ```javascript
       filters: {
@@ -47,7 +48,7 @@ There are two types of filters.
 	  }
       }
 ```
-##### 2. Global Filters. <br />
+   <strong>2. Global Filters.</strong> <br />
    Define a filter globally before creating the Vue instance.
 ```javascript
     Vue.filter('capitalize', function (value) {
@@ -60,6 +61,7 @@ There are two types of filters.
 	  // ...
      })
 ```
+   <strong>Note:</strong> When the global filter has the same name as the local filter, the local filter will be preferred.
 
 
 
