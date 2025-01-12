@@ -3,7 +3,8 @@ In this repository, I have listed some Vue.js Interview Questions and their answ
 
 1. [What is Vue.js?](#what-is-react-js) <br />
 2. [Mention some of the features of Vue.js.](#mention-some-of-the-features-of-vuejs) <br />
-2. [What are filters in Vue.js?](#what-are-filters-in-vuejs) <br />
+3. [What are filters in Vue.js?](#what-are-filters-in-vuejs) <br />
+4. [How to create an instance in Vue.js?](#how-to-create-an-instance-in-vuejs) <br />
 
 
 
@@ -63,5 +64,25 @@ There are two types of filters.  <br />
 ```
    <strong>Note:</strong> When the global filter has the same name as the local filter, the local filter will be preferred.
 
+### How to create an instance in Vue.js?
+Every Vue application starts by creating a new Vue instance with the Vue function: <br />
+<strong>1. Vue 2 Syntax.</strong> <br />
+```javascript
+    var vm = new Vue({
+	        // options
+	     })
+```
+<strong>2. Vue 3 Synbtax.</strong> <br />
+```javascript
+import { createApp, ref } from 'vue'
+
+createApp({
+  setup() {
+	return {
+	  count: ref(0)
+	}
+  }
+}).mount('#app')
+```
 
 
