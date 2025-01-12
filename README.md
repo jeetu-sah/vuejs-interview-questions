@@ -85,4 +85,20 @@ createApp({
 }).mount('#app')
 ```
 
+### Vue js Built-in Directives.
+   1. v-for <br /> 
+   2. v-show <br />
+   3. v-if <br />
+   4. v-else <br />
+   5. v-bind <br />
+   6. v-model <br />
+   7. v-text <br /> 
+   8. v-html <br /> 
+   9. v-else-if <br />
+   10. v-on <br />
+   11. v-slot <br />
+   12. v-pre <br />
+   13. v-once <br />
+     And so on are some of the inbuilt directives present in Vue.js.
+
 
