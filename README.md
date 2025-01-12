@@ -36,8 +36,8 @@ In this repository, I have listed some Vue.js Interview Questions and their answ
 	<div v-bind:id="rawId | formatId"></div>
 ```
 There are two types of filters. 
-1. Local Filters.
-      You can define local filters in a component’s options:
+##### 1. Local Filters. <br />
+   You can define local filters in a component’s options:
 ```javascript
       filters: {
 	  capitalize: function (value) {
@@ -47,7 +47,7 @@ There are two types of filters.
 	  }
       }
 ```
-3. Global Filters.
+##### 2. Global Filters. <br />
    Define a filter globally before creating the Vue instance.
 ```javascript
     Vue.filter('capitalize', function (value) {
