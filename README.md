@@ -4,10 +4,11 @@ In this repository, I have listed some Vue.js Interview Questions and their answ
 1. [What is Vue.js?](#what-is-react-js) <br />
 2. [Mention some of the features of Vue.js.](#mention-some-of-the-features-of-vuejs) <br />
 3. [What are filters in Vue.js?](#what-are-filters-in-vuejs) <br />
-4. [How to create an instance in Vue.js?](#how-to-create-an-instance-in-vuejs) <br />
+4. [How do I create an instance in Vue.js?](#how-to-create-an-instance-in-vuejs) <br />
 5. [Vue js Built-in Directives.](#vue-js-built-in-directives) <br />
-6. [What are the props in vue.js?](#what-are-the-props-in-vuejs) <br />
-7. [What are slots in vue.js?](#what-are-slots-in-vuejs) <br />
+6. [What are the props in Vue.js?](#what-are-the-props-in-vuejs) <br />
+7. [What are slots in Vue.js?](#what-are-slots-in-vuejs) <br />
+8. [What are the difference between Created() and Mounted() in Vue js?](#what-are-slots-in-vuejs) <br />
 
 
 
@@ -144,3 +145,22 @@ The template of ``<Button>`` looks like this:
   <slot></slot> <!-- slot outlet -->
 </button>
 ```
+
+
+### What are the difference between Created() and Mounted() in Vue js?
+In Vue.js, the created() method is called after a component is created, but before it's added to the page. The mounted() method is called after the component's DOM is created and added to the page.
+
+<strong>When to use created() </strong>
+1. Fetch data from an API
+2. Manipulate data passed in via props
+3. Trigger actions like data fetching from an API backend
+
+<strong>When to use mounted()  </strong>
+Load anything that manipulates the component's DOM
+Access the reactive component, templates, and DOM elements.
+
+<strong>What's different about created() and mounted() </strong>
+1. created() is called before mounted()
+2. You can't perform DOM manipulations in created() because the DOM hasn't been mounted yet
+3. mounted() is the most often used hook in the lifecycle
+
