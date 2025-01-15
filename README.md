@@ -13,7 +13,7 @@ In this repository, I have listed some Vue.js Interview Questions and their answ
 
 
 ### What is Vue.js?
-    Vue is an open-source, progressive JavaScript framework for building user interfaces. Vue is a framework and ecosystem that covers most of the common features needed in 
+Vue is an open-source, progressive JavaScript framework for building user interfaces. Vue is a framework and ecosystem that covers most of the common features needed in 
     front-end development. Using the Vuejs, we can develop websites and Single-Page Application (SPA).
 
 
@@ -129,7 +129,7 @@ In non-<script setup> components, props are declared using the props option:
 ```
 
 ### What are slots in vue.js?
-    Using Slot, We can  pass a template fragment to a child component from the parent, and let the child component render the fragment within its own template.
+Using Slot, We can  pass a template fragment to a child component from the parent, and let the child component render the fragment within its own template.
     For example, we may have a <Button> component that supports usage like this:
     
 ```javascript
