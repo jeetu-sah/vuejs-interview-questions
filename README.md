@@ -137,7 +137,7 @@ Using Slot, We can  pass a template fragment to a child component from the paren
   Click me! <!-- slot content -->
 </Button>
 ```
-The template of <Button> looks like this:
+The template of ``<Button>`` looks like this:
 
 ```javascript
 <button class="btn btn-success">
