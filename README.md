@@ -8,7 +8,7 @@ In this repository, I have listed some Vue.js Interview Questions and their answ
 5. [Vue js Built-in Directives.](#vue-js-built-in-directives) <br />
 6. [What are the props in Vue.js?](#what-are-the-props-in-vuejs) <br />
 7. [What are slots in Vue.js?](#what-are-slots-in-vuejs) <br />
-8. [What are the difference between Created() and Mounted() in Vue js?](#what-are-slots-in-vuejs) <br />
+8. [What are the difference between Created() and Mounted() in Vue js?](#what-are-the-difference-between-created-and-mounted-in-vue-js) <br />
 
 
 
@@ -156,8 +156,8 @@ In Vue.js, the created() method is called after a component is created, but befo
 3. Trigger actions like data fetching from an API backend
 
 <strong>When to use mounted()  </strong>
-Load anything that manipulates the component's DOM
-Access the reactive component, templates, and DOM elements.
+1. Load anything that manipulates the component's DOM
+2. Access the reactive component, templates, and DOM elements.
 
 <strong>What's different about created() and mounted() </strong>
 1. created() is called before mounted()
