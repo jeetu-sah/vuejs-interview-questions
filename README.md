@@ -7,6 +7,8 @@ In this repository, I have listed some Vue.js Interview Questions and their answ
 4. [How to create an instance in Vue.js?](#how-to-create-an-instance-in-vuejs) <br />
 5. [Vue js Built-in Directives.](#vue-js-built-in-directives) <br />
 6. [What are the props in vue.js?](#what-are-the-props-in-vuejs) <br />
+7. [What are slots in vue.js?](#what-are-the-props-in-vuejs) <br />
+
 
 
 
@@ -123,4 +125,21 @@ In non-<script setup> components, props are declared using the props option:
 		console.log(props.foo)
 	  }
    }
+```
+
+### What are the props in vue.js?
+    Using Slot, We can  pass a template fragment to a child component from the parent, and let the child component render the fragment within its own template.
+
+    For example, we may have a <Button> component that supports usage like this:
+```javascript
+<Button>
+  Click me! <!-- slot content -->
+</Button>
+```
+The template of <Button> looks like this:
+
+```javascript
+<button class="btn btn-success">
+  <slot></slot> <!-- slot outlet -->
+</button>
 ```
