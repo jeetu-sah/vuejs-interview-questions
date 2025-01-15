@@ -103,7 +103,7 @@ createApp({
    13. v-once <br />
      And so on are some of the inbuilt directives present in Vue.js.
 
-### Vue js Built-in Directives.
+### What are the props in vue.js?
    Props in Vue is a way to pass values as attributes to child components
    
    In SFCs using <script setup>, props can be declared using the defineProps() macro:
