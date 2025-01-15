@@ -130,8 +130,8 @@ In non-<script setup> components, props are declared using the props option:
 
 ### What are slots in vue.js?
     Using Slot, We can  pass a template fragment to a child component from the parent, and let the child component render the fragment within its own template.
-
     For example, we may have a <Button> component that supports usage like this:
+    
 ```javascript
 <Button>
   Click me! <!-- slot content -->
