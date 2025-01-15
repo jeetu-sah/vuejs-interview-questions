@@ -13,7 +13,8 @@ In this repository, I have listed some Vue.js Interview Questions and their answ
 
 
 ### What is Vue.js?
-  Vue is an open-source, progressive JavaScript framework for building user interfaces. Vue is a framework and ecosystem that covers most of the common features needed in front-end development. Using the Vuejs, we can develop websites and Single-Page Application (SPA).
+    Vue is an open-source, progressive JavaScript framework for building user interfaces. Vue is a framework and ecosystem that covers most of the common features needed in 
+    front-end development. Using the Vuejs, we can develop websites and Single-Page Application (SPA).
 
 
 ### Mention some of the features of Vue.js.
