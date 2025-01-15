@@ -6,6 +6,7 @@ In this repository, I have listed some Vue.js Interview Questions and their answ
 3. [What are filters in Vue.js?](#what-are-filters-in-vuejs) <br />
 4. [How to create an instance in Vue.js?](#how-to-create-an-instance-in-vuejs) <br />
 5. [Vue js Built-in Directives.](#vue-js-built-in-directives) <br />
+6. [What are the props in vue.js?](#vue-js-built-in-directives) <br />
 
 
 
@@ -102,4 +103,24 @@ createApp({
    13. v-once <br />
      And so on are some of the inbuilt directives present in Vue.js.
 
+### Vue js Built-in Directives.
+   Props in Vue is a way to pass values as attributes to child components
+   
+   In SFCs using <script setup>, props can be declared using the defineProps() macro:
+```javascript
+   <script setup>
+	const props = defineProps(['foo'])
+	console.log(props.foo)
+   </script>
+```
+In non-<script setup> components, props are declared using the props option:
 
+```javascript
+   export default {
+	  props: ['foo'],
+	  setup(props) {
+		// setup() receives props as the first argument.
+		console.log(props.foo)
+	  }
+   }
+```
