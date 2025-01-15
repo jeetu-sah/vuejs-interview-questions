@@ -7,7 +7,7 @@ In this repository, I have listed some Vue.js Interview Questions and their answ
 4. [How to create an instance in Vue.js?](#how-to-create-an-instance-in-vuejs) <br />
 5. [Vue js Built-in Directives.](#vue-js-built-in-directives) <br />
 6. [What are the props in vue.js?](#what-are-the-props-in-vuejs) <br />
-7. [What are slots in vue.js?](#what-are-the-props-in-vuejs) <br />
+7. [What are slots in vue.js?](#what-are-slots-in-vuejs) <br />
 
 
 
